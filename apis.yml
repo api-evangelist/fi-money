@@ -1,0 +1,103 @@
+aid: fi-money
+name: Fi Money
+description: >-
+  Fi Money is a Bengaluru, India based money-management application and
+  consumer fintech operated by Epifi Technologies, founded in 2019 by ex-Google
+  Pay (Tez) executives Sujith Narayanan and Sumit Gwalani together with
+  Neeraj Bhope and Prasanna Ranganathan. Fi is not a chartered bank; it
+  delivers a millennial-focused mobile experience layered on top of partner
+  RBI-licensed Federal Bank, providing zero-balance digital savings accounts,
+  a Visa debit card, deposits, mutual funds, Indian and US stocks, EPF
+  tracking, credit cards, personal loans, jump-style automated savings rules
+  ("FIT Rules"), and an AI-powered money assistant. Fi has raised roughly
+  US$169M across multiple rounds from investors including Sequoia Capital
+  India (Peak XV), Ribbit Capital, Temasek, Alpha Wave, and B Capital, and
+  serves Indian retail consumers via iOS and Android apps. There is no
+  classic public REST developer API or partner banking-as-a-service surface;
+  Fi's only developer-facing interface is the Fi MCP (Model Context Protocol)
+  server — a JSON-RPC streaming endpoint at https://mcp.fi.money:8080/mcp/stream
+  that lets users connect their own Fi account to LLM clients (Claude
+  Desktop, Cursor, Windsurf, Gemini, ChatGPT) and call read-only tools such
+  as fetch_net_worth, fetch_credit_report, fetch_epf_details,
+  fetch_bank_transactions, fetch_mf_transactions, and fetch_stock_transactions
+  to expose their net worth, holdings, EPF balance, credit report, and
+  transactions to AI assistants. A hackathon-friendly mock server
+  (epiFi/fi-mcp-dev, Go) and developer documentation (epiFi/mcp-docs) are
+  published publicly on GitHub.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Fintech
+  - Neobank
+  - Consumer Banking
+  - Personal Finance
+  - Money Management
+  - Wealth Analyzer
+  - Mutual Funds
+  - Stocks
+  - EPF
+  - Credit Cards
+  - Personal Loans
+  - Savings
+  - UPI
+  - India
+  - Federal Bank
+  - MCP
+  - Model Context Protocol
+  - AI Assistant
+  - Mobile Banking
+url: https://raw.githubusercontent.com/api-evangelist/fi-money/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://fi.money
+  - type: About
+    url: https://fi.money/about
+  - type: Careers
+    url: https://fi.money/careers
+  - type: Contact
+    url: https://fi.money/contact-us
+  - type: Security
+    url: https://fi.money/Fi-Secure
+  - type: Privacy
+    url: https://fi.money/privacy
+  - type: TermsOfService
+    url: https://fi.money/blog/tnc
+  - type: FAQ
+    url: https://fi.money/FAQs
+  - type: Blog
+    url: https://fi.money/insights
+  - type: MCPGettingStarted
+    url: https://fi.money/features/getting-started-with-fi-mcp
+  - type: MCPUsage
+    url: https://fi.money/features/using-fi-mcp-for-money-management
+  - type: MCPFAQ
+    url: https://fi.money/FAQs/wealth-analyzer-(fi-mcp)
+  - type: AIFeatures
+    url: https://fi.money/features/ai-for-money-management
+  - type: GitHub
+    url: https://github.com/epiFi
+  - type: MCPDocs
+    url: https://github.com/epiFi/mcp-docs
+  - type: MCPDevServer
+    url: https://github.com/epiFi/fi-mcp-dev
+  - type: MCPEndpoint
+    url: https://mcp.fi.money:8080/mcp/stream
+  - type: PartnerBank
+    url: https://www.federalbank.co.in
+  - type: LinkedIn
+    url: https://in.linkedin.com/company/fi-money
+  - type: Twitter
+    url: https://twitter.com/Bank_on_Fi
+  - type: iOSApp
+    url: https://apps.apple.com/in/app/fi-money-savings-investments/id1503530120
+  - type: AndroidApp
+    url: https://play.google.com/store/apps/details?id=in.fi.money
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
