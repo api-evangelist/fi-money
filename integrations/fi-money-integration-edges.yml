@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/fi-money/integrations
+- https://n8n.io/integrations/fi-money/
+- https://composio.dev/toolkits/fi-money
+- https://monid.ai/tools/fi-money
+checked:
+- https://composio.dev/toolkits/fi-money
+- https://monid.ai/tools/fi-money
+- https://n8n.io/integrations/fi-money/
+- https://zapier.com/apps/fi-money/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
